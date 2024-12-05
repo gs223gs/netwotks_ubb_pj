@@ -2,19 +2,26 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>湯婆婆の名簿 - 入社</title>
+    <!-- Google Fontsの読み込み -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP&display=swap" rel="stylesheet">
+    <!-- CSSファイルの読み込み -->
+    <link rel="stylesheet" href="./css/index.css">
+    <title>湯屋</title>
 </head>
 <body>
-    <h1>湯婆婆の名簿へようこそ</h1>
+    <h1>湯屋へようこそ</h1
+    <h1></h1>
+
     <form action="convert.php" method="post">
         <label>漢字の名前：</label>
         <input type="text" name="input_name" required><br><br>
         <label>ひらがなの名前：</label>
         <input type="text" name="input_name_hira" required><br><br>
-        <input type="submit" value="送信">
+        <input type="submit" value="入社">
     </form>
     <br>
     <form action="user.php" method="get">
+        <P>湯婆婆専用ボタン</P>
         <button type="submit">名簿を見る</button>
     </form>
 </body>

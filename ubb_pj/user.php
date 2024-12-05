@@ -20,6 +20,7 @@ $result = $conn->query($sql);
 <html>
 <head>
     <meta charset="UTF-8">
+    
     <title>湯婆婆の名簿 - 名簿一覧</title>
 </head>
 <body>
