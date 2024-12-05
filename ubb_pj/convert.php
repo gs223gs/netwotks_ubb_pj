@@ -50,7 +50,7 @@ $conn->close();
     <form action="user.php" method="get">
         <button type="submit">名簿を見る</button>
     </form>
-    <form action="index.php" method="get">
+    <form action="./index.html" method="get">
         <button type="submit">入社する</button>
     </form>
     <footer>

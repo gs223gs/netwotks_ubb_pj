@@ -53,7 +53,7 @@ $result = $conn->query($sql);
     <?php
     $conn->close();
     ?>
-    <form action="index.php" method="get">
+    <form action="./index.html" method="get">
         <button type="submit">入社する</button>
     </form>
     <footer>
