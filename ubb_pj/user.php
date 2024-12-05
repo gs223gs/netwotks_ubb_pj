@@ -20,12 +20,15 @@ $result = $conn->query($sql);
 <html>
 <head>
     <meta charset="UTF-8">
-    
     <title>湯婆婆の名簿 - 名簿一覧</title>
+    <!-- Google Fontsの読み込み -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP&display=swap" rel="stylesheet">
+    <!-- CSSファイルの読み込み -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>名簿一覧</h1>
-    <table border="1">
+    <table>
         <tr>
             <th>ID</th>
             <th>漢字の名前</th>
@@ -50,9 +53,11 @@ $result = $conn->query($sql);
     <?php
     $conn->close();
     ?>
-    <br>
     <form action="index.php" method="get">
         <button type="submit">入社する</button>
     </form>
+    <footer>
+        &copy; 2023 湯屋
+    </footer>
 </body>
 </html>

@@ -1,0 +1,73 @@
+/* style.css */
+body {
+    background-color: #f4e9cd; /* 和紙のような薄いベージュ色 */
+    font-family: 'Noto Serif JP', serif; /* 日本語のセリフ体フォント */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    background-color: #800000; /* 深い赤色で湯屋の雰囲気を表現 */
+    color: #fff;
+    text-align: center;
+    padding: 30px 0;
+    margin: 0;
+    font-size: 36px;
+}
+
+table {
+    width: 80%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+table th, table td {
+    border: 1px solid #ccc;
+    padding: 12px;
+    text-align: center;
+    font-size: 16px;
+}
+
+table th {
+    background-color: #800000;
+    color: #fff;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+form {
+    width: 200px;
+    margin: 20px auto;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #800000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #a52a2a;
+}
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 14px;
+    color: #777;
+}
+
+@media (max-width: 480px) {
+    table {
+        width: 95%;
+    }
+}

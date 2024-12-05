@@ -2,27 +2,31 @@
 <html>
 <head>
     <meta charset="UTF-8">
+    <title>湯屋</title>
     <!-- Google Fontsの読み込み -->
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP&display=swap" rel="stylesheet">
     <!-- CSSファイルの読み込み -->
     <link rel="stylesheet" href="./css/index.css">
-    <title>湯屋</title>
 </head>
 <body>
-    <h1>湯屋へようこそ</h1
-    <h1></h1>
+    <h1>湯屋へようこそ</h1>
+    <p>君の名前は贅沢かな?</p>
 
     <form action="convert.php" method="post">
         <label>漢字の名前：</label>
-        <input type="text" name="input_name" required><br><br>
+        <input type="text" name="input_name" required>
         <label>ひらがなの名前：</label>
-        <input type="text" name="input_name_hira" required><br><br>
+        <input type="text" name="input_name_hira" required>
         <input type="submit" value="入社">
     </form>
-    <br>
+
     <form action="user.php" method="get">
-        <P>湯婆婆専用ボタン</P>
+        <p>湯婆婆専用ボタン</p>
         <button type="submit">名簿を見る</button>
     </form>
+
+    <footer>
+        &copy; 2023 湯屋
+    </footer>
 </body>
 </html>

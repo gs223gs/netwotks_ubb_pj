@@ -37,6 +37,10 @@ $conn->close();
 <head>
     <meta charset="UTF-8">
     <title>湯婆婆の名簿 - 変換結果</title>
+    <!-- Google Fontsの読み込み -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP&display=swap" rel="stylesheet">
+    <!-- CSSファイルの読み込み -->
+    <link rel="stylesheet" href="./css/convert.css">
 </head>
 <body>
     <h1>変換結果</h1>
@@ -49,5 +53,8 @@ $conn->close();
     <form action="index.php" method="get">
         <button type="submit">入社する</button>
     </form>
+    <footer>
+        &copy; 2023 湯屋
+    </footer>
 </body>
 </html>
