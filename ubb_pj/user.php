@@ -24,7 +24,7 @@ $result = $conn->query($sql);
     <!-- Google Fontsの読み込み -->
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP&display=swap" rel="stylesheet">
     <!-- CSSファイルの読み込み -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/user.css">
 </head>
 <body>
     <h1>名簿一覧</h1>
